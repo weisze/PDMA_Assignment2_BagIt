@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBABCDEF"
+    tools:context=".homepage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Hello"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            tools:text="@string/Hello" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="I WANT TO:"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="78dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/viewrequest"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="#66c3c3c3"
+            android:foregroundGravity="center"
+            android:gravity="center_vertical|center"
+            android:text="VIEW REQUESTS" />
+
+        <Button
+            android:id="@+id/viewtrip"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="#66c3c3c3"
+            android:foregroundGravity="center"
+            android:gravity="center_vertical|center"
+            android:text="VIEW TRIPS" />
+
+        <Button
+            android:id="@+id/addrequest"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="#66c3c3c3"
+            android:foregroundGravity="center"
+            android:gravity="center_vertical|center"
+            android:text="ADD REQUESTS" />
+
+        <Button
+            android:id="@+id/addtrip"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="#66c3c3c3"
+            android:foregroundGravity="center"
+            android:gravity="center_vertical|center"
+            android:text="ADD TRIPS" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

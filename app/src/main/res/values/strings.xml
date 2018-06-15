@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PDMA_Assignment 2_BagIt</string>
+    <string name="Hello">HELLO, XYZ!</string>
+    <string name="hamburger">Hamburger</string>
+    <string name="country">add country here</string>
+    <string name="add">add</string>
+    <string name="date">YYYY-MM-DD</string>
+    <string name="email_hint">Email Address</string>
+    <string name="pw_hint">Password</string>
+    <string name="cfm_pw_hint">Confirm Password</string>
+    <string name="reg_btn_text">Register Account</string>
+    <string name="reg_login_btn_text">Existing User?</string>
+    <string name="login_btn_text">Login</string>
+    <string name="login_reg_btn_text">New User?</string>
+</resources>
